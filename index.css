@@ -489,6 +489,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
+    padding-left: 160px;
     margin-bottom: var(--gutter-normal);
 }
 
