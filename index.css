@@ -489,7 +489,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
-    padding-left: 160px;
     margin-bottom: var(--gutter-normal);
 }
 
@@ -504,6 +503,10 @@ body:not(.user-is-tabbing) a:focus {
     .work__code {
         height: 4rem;
     }
+}
+
+.work__image {
+    padding-left: 16px;
 }
 
 /* --------------------------------------- */
@@ -551,6 +554,21 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+}
+
+.about__photo {
+    border-radius: 50%;
+    height: 440px;
+    width: 440px;
+    margin-left: 80px;
+    background-image: url('./images/dino.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.about__photo:hover {
+    background-image: url('./images/fadliri.jpg');
 }
 
 @media(min-width: 901px) {
